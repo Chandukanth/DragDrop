@@ -1,0 +1,62 @@
+/* App.css */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+}
+
+.card-container .ui-card {
+  width: 400px; 
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  font-family: 'Poppins', sans-serif;
+  gap: 3px; 
+}
+
+.ui-card {
+  height: 150px; 
+}
+.filter-container {
+  display: flex;
+  gap: 10px;
+  background-color: #f0f0f0;
+  font-family: 'Poppins', sans-serif;
+
+}
+.icon {
+  vertical-align: middle; 
+}
+
+.title{
+  border-radius: 20px;
+  border: 1px solid lightgrey;
+  width: 30%;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.filter-element {
+  border-radius: 20px;
+  border: 1px solid lightgrey;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 20%;
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+
+}
+
